@@ -48,7 +48,6 @@ Rocket launches are highly sensitive to environmental and technical conditions. 
 ---
 
 ## 📁 Folder Structure
-
 Predicting-rocket-launch-feasibility/
 │
 ├── data/ → Dataset files
@@ -57,54 +56,3 @@ Predicting-rocket-launch-feasibility/
 ├── rocket_predictor.py → CLI Prediction script
 ├── notebooks/ → Jupyter Notebooks
 └── README.md → You’re here!
-
-yaml
-Copy code
-
----
-
-## 📷 Visual Highlights
-
-### 🚦 Feasibility Distribution  
-<img src="https://raw.githubusercontent.com/rutujapatil-afk/Predicting-rocket-launch-feasibility/main/visuals/launch_distribution.png" width="600"/>
-
-### 🌟 Feature Importance  
-<img src="https://raw.githubusercontent.com/rutujapatil-afk/Predicting-rocket-launch-feasibility/main/visuals/feature_importance.png" width="600"/>
-
----
-
-## ⚙️ How to Use
-
-### 1. Clone the Repo  
-```bash
-git clone https://github.com/rutujapatil-afk/Predicting-rocket-launch-feasibility.git
-cd Predicting-rocket-launch-feasibility
-2. Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-3. Run Jupyter Notebook
-bash
-Copy code
-jupyter notebook
-4. Use CLI Predictor
-bash
-Copy code
-python rocket_predictor.py
-✅ Model Performance
-Model	Accuracy	F1 Score
-Random Forest	94.5%	0.94
-XGBoost	93.8%	0.93
-SVM	90.2%	0.89
-
-🛠 Tech Stack
-🧠 ML & AI	📊 Data Handling	🛠 Tools	💻 Platform
-Scikit-learn, XGBoost, SVM	Pandas, NumPy	Jupyter, Matplotlib, Seaborn	GitHub, Colab
-
-🙋‍♀️ Author
-<h3 align="center">Rutuja Patil</h3> <p align="center"> <a href="mailto:rutujakpatil2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href="https://www.linkedin.com/in/rutuja-patil20/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://github.com/rutujapatil-afk"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.hackerrank.com/profile/rutujapatil20"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> </p>
-📝 License
-This repository is licensed under the MIT License.
-Feel free to use, fork, or contribute with proper attribution. 🌟
-
-<p align="center"><i>“Even space has rules. Predicting them is where the fun begins.”</i></p> ```
